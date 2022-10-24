@@ -41,7 +41,7 @@ bg.scale = 1.987
 
 
 //creating top and bottom grounds
-bottomGround = createSprite(10,1330,800,20);
+bottomGround = createSprite(10,windowHeight-20,800,20);
 bottomGround.visible = false;
 
 topGround = createSprite(10,20,800,20);
